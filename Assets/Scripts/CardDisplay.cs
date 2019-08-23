@@ -12,8 +12,8 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI descriptionText;
 
     public Image artworkImage;
-    public Image cardClassImage;
-    public Image background;
+    public RawImage cardClassImage;
+    public RawImage background;
     public CardType cardType;
 
     public Text costText;
@@ -25,7 +25,7 @@ public class CardDisplay : MonoBehaviour
         descriptionText.text = card.description;
 
         artworkImage.sprite = card.cardArt;
-        cardClassImage.sprite = card.charClass;
+        //cardClassImage.sprite = card.charClass;
 
         switch (cardType)
         {

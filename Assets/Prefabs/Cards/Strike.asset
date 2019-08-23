@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Strike
   m_EditorClassIdentifier: 
   name: Strike
-  description: Deal $ damage.
+  description: Deal ($) damage.
   cardArt: {fileID: 0}
   charClass: {fileID: 0}
   damage: 6
   cost: 1
+  cardType: 0

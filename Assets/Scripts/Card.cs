@@ -14,7 +14,15 @@ public class Card : ScriptableObject
 
     public int damage;
     public int cost;
+    public CardType cardType;
+
+    public void Update()
+    {
+        
+    }
+
 }
+
 
 public enum CardType
 {
